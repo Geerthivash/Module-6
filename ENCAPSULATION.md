@@ -26,6 +26,36 @@ To write a Python program to create a class `Student` with the private members `
 ### PROGRAM
 
 ```
+# Reg.No: 212223060067
+# Name: GEERTHIVASH J D
+class Student:
+    def __init__(self,name,age):
+        # private member
+        self.name = name
+        self.__age = age
+
+    
+    def get_age(self):
+        return self.__age
+
+    
+    def set_age(self,age):
+        self.__age = age
+
+stud = Student('Jessa', 14)
+
+
+print('Name:', stud.name, stud.get_age())
+
+# change age using setter
+stud.set_age(16)
+
+
+print('Name:', stud.name, stud.get_age())
+
+
+
+
 
 
 
@@ -33,7 +63,8 @@ To write a Python program to create a class `Student` with the private members `
 
 ### OUTPUT
 
+<img width="1168" height="206" alt="image" src="https://github.com/user-attachments/assets/e51748bc-56c9-49d8-95df-22de855416a0" />
 
 ### RESULT
-
+Thus the python program to create a class Student with the private members name and age, and add getter and setter methods has been executed
 
