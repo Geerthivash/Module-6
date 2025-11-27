@@ -34,10 +34,39 @@ To write a Python program to create a Parent class `Bird` and inherit two child 
 ### PROGRAM
 
 ```
+# Reg.No: 212223060067
+# Name: GEERTHIVASH J D
+class Bird:
+    def intro(self):
+        print("There are many types of birds.")
+	
+    def flight(self):
+        print("Most of the birds can fly but some cannot.")
+
+class sparrow(Bird):
+    def intro(self):
+        print("Sparrows can fly.")
+	
+class ostrich(Bird):
+    def flight(self):
+        print("Ostriches cannot fly.")
+	
+obj_bird = Bird()
+obj_bird.intro()
+obj_bird.flight()
+obj_bird.intro()
+obj_spr=sparrow()
+obj_spr.intro()
+obj_bird.intro()
+obj_ost=ostrich()
+obj_ost.flight()
+
 
 ```
 
 ### OUTPUT
 
+<img width="1158" height="307" alt="image" src="https://github.com/user-attachments/assets/2f548e76-7d1b-4e7c-83a9-7be95f25c3c6" />
 
 ### RESULT
+Thus the python program to create a Parent class Bird and inherit two child classes has been implemented successfully.
